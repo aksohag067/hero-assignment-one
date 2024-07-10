@@ -11,7 +11,7 @@
 .bg-container{
     background-image: url("../assets/Hero-bg.png");
     width: 1440px;
-    height: 652px;
+    margin: 103px 42px 114px 42px;
 }
 
 .banner {
@@ -22,14 +22,33 @@
     margin: 54px 179px 17px 263px;
 }
 
-/* .hero-bg {
-    margin: 0 378px 341px 378px;
-} */
+.hero-bg img {
+    margin-left: 380px;
+    margin-bottom: 32px;
+}
 
-/* .bg-container .banner-description {
-    margin: 100px 179px 17px 263px;
+.banner-description h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #0D1321;
+    margin-bottom: 24px;
 } 
-*/
+
+.banner-description button {
+    padding: 21px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0D1321;
+    margin: 32px 377px 17px 377px;
+    border-radius: 8px;
+}
+
+/* Shared styles */
+.para-color {
+    color: #0D1321; 
+}
+
 
 /* Main section styles */
 
