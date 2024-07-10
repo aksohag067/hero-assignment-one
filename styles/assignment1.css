@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section Styles */
+.bg-container{
+    background-image: url("../assets/Hero-bg.png");
+    width: 1440px;
+    height: 652px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 54px 179px 17px 263px;
+}
+
+/* .hero-bg {
+    margin: 0 378px 341px 378px;
+} */
+
+/* .bg-container .banner-description {
+    margin: 100px 179px 17px 263px;
+} 
+*/
+
+/* Main section styles */
+
+.title {
+    text-align: center;
+}
+
+.title-stage-one {
+    display: flex;
+    gap: 100px;
+}
