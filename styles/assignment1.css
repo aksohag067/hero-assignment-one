@@ -71,3 +71,14 @@
     display: flex;
     gap: 24px;
 }
+
+/* support section styles */
+
+.bg-container-2 {
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    height: 313px;
+}
