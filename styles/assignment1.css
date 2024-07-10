@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
 /* Hero Section Styles */
@@ -81,4 +83,17 @@
     background-position: center;
     width: 1140px;
     height: 313px;
+}
+
+/* Footer styles */
+
+.footer {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h2 {
+    font-weight: 600;
+    font-size: 20px;
 }
