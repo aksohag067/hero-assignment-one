@@ -47,6 +47,24 @@
 /* Shared styles */
 .para-color {
     color: #0D1321; 
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.h2-heading {
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.middle-padding {
+    padding: 48px;
+    margin-bottom: 32px;
+}
+
+.coding p {
+    text-align: justify;
 }
 
 
@@ -73,7 +91,8 @@
 
 .middle {
     width: 1140px;
-    height: 1400;
+    margin-left: 110px;
+    margin-right: 192px;
     padding: 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
     display: flex;
@@ -83,14 +102,77 @@
 
 }
 
+.middle .coding {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.coding button {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px;
+    color: #0D1321;
+}
+
+/* Inspiration section styles */
+
 .inspiration {
-    margin-top: 90px;
+    width: 1140px;
+    background-color: rgba(13, 19, 33, 0.1);
+    margin: 49px 150px 50px 150px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-video {
+    padding: 32px;
+    border-radius: 16px;
 }
 /* Target related styles */
 
-.target-learning {
+.target {
+    width: 1140px;
+    margin: 49px 150px 50px 150px;
+}
+
+.skills {
     display: flex;
     gap: 24px;
+}
+
+.skills .skill-1 {
+    width: 364px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-1 img, .skill-1 h2, .skill-1 p {
+    margin-bottom: 16px;
+}
+.skills .skill-2 {
+    width: 364px;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-2 img, .skill-2 h2, .skill-2 p {
+    margin-bottom: 16px;
+    text-align: justify;
+}
+.skills .skill-3 {
+    width: 364px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-3 img, .skill-3 h2, .skill-3 p {
+    margin-bottom: 16px;
+    text-align: justify;
 }
 
 /* support section styles */
