@@ -14,7 +14,7 @@
                 <div class="banner-description">
                     <h1>"In the near future, I hope to <br> become a Developer."</h1>
                     <p class="para-color">I am learning HTML, CSS, javaScript, framework like react and determined to be an organized developer</p>
-                    <button>Contact with me</button>
+                    <button id="scrollBtn">Contact with me</button>
                 </div>
             </div>
         </div>
@@ -101,14 +101,20 @@
         </div>
     </section>
     <footer>
-        <section class="footer">
+        <div id ="footer" class="foot">
             <h2>Assignment made by Abdul Kader Sohag</h2>
             <div class="media-items">
                 <img src="./assets/facebook.png" alt="">
                 <img src="./assets/github.png" alt="">
                 <img src="./assets/linkedin-icon 1.png" alt="">
             </div>
-        </section>
+        </div>
     </footer>
+
+    <script>
+        document.getElementById("scrollBtn").addEventListener("click", function(){
+            document.getElementById("footer").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
 </body>
 </html>

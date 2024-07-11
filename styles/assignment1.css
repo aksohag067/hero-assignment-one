@@ -7,6 +7,10 @@
     font-family: "Azeret Mono", monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Hero Section Styles */
 .bg-container{
     background-image: url("../assets/Hero-bg.png");
@@ -225,14 +229,14 @@ input[type="button"] {
 
 /* Footer styles */
 
-.footer {
+.foot {
     width: 1440px;
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
 
-.footer h2 {
+.foot h2 {
     font-weight: 600;
     font-size: 20px;
     padding: 36px;
